@@ -1,0 +1,33 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<SelectDict /> render() renders the component 1`] = `
+<div
+  className="form-group"
+>
+  <ControlLabel
+    bsClass="control-label"
+    srOnly={false}
+  >
+    Select Dictionary to apply
+  </ControlLabel>
+  <FormControl
+    bsClass="form-control"
+    componentClass="select"
+    defaultValue={0}
+    onChange={[Function]}
+    placeholder="select"
+  >
+    <option
+      value={0}
+    >
+      Original
+    </option>
+    <option
+      key="3"
+      value={3}
+    >
+      Dictionary 3
+    </option>
+  </FormControl>
+</div>
+`;

@@ -1,0 +1,153 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<SelectDict /> render() renders the component 1`] = `
+<Panel
+  bsClass="panel"
+  bsStyle="default"
+  id="panelundefined"
+  onToggle={[Function]}
+>
+  <PanelHeading
+    bsClass="panel"
+    componentClass="div"
+  >
+    <PanelTitle
+      bsClass="panel"
+      componentClass="div"
+      toggle={true}
+    >
+       
+      <small
+        className="text-right small muted pull-right"
+      >
+        Double Click to EDIT, press return to save
+      </small>
+    </PanelTitle>
+  </PanelHeading>
+  <PanelCollapse
+    bsClass="panel"
+  >
+    <PanelBody
+      bsClass="panel"
+      collapsible={false}
+    >
+      <BootstrapTableContainer
+        cellEdit={
+          Object {
+            "DBCLICK_TO_CELL_EDIT": "dbclick",
+            "DELAY_FOR_DBCLICK": 200,
+            "createContext": [Function],
+            "createEditingCell": [Function],
+            "options": Object {
+              "mode": "dbclick",
+            },
+            "withRowLevelCellEdit": [Function],
+          }
+        }
+        columns={
+          Array [
+            Object {
+              "dataField": "id",
+              "text": "ID",
+            },
+            Object {
+              "classes": [Function],
+              "dataField": "domain",
+              "editable": true,
+              "sort": true,
+              "text": "Domain",
+              "validator": [Function],
+            },
+            Object {
+              "classes": [Function],
+              "dataField": "range",
+              "editable": true,
+              "sort": true,
+              "text": "Range",
+              "validator": [Function],
+            },
+          ]
+        }
+        data={Array []}
+        defaultSorted={
+          Array [
+            Object {
+              "dataField": "domain",
+              "order": "asc",
+            },
+          ]
+        }
+        expandRow={
+          Object {
+            "renderer": [Function],
+          }
+        }
+        keyField="id"
+      />
+      <Form
+        bsClass="form"
+        componentClass="form"
+        horizontal={false}
+        inline={true}
+        onSubmit={[Function]}
+      >
+        <FormGroup
+          bsClass="form-group"
+          bsSize="small"
+          controlId="formInlineDomain"
+        >
+          <FormControl
+            bsClass="form-control"
+            componentClass="input"
+            name="d"
+            onChange={[Function]}
+            placeholder="Type domain"
+            required={true}
+            type="text"
+          />
+        </FormGroup>
+         
+        <FormGroup
+          bsClass="form-group"
+          bsSize="small"
+          controlId="formInlineRange"
+          onChange={[Function]}
+        >
+          <FormControl
+            bsClass="form-control"
+            componentClass="input"
+            name="r"
+            placeholder="Type range"
+            required={true}
+            type="text"
+          />
+        </FormGroup>
+         
+        <Button
+          active={false}
+          block={false}
+          bsClass="btn"
+          bsSize="small"
+          bsStyle="default"
+          disabled={false}
+          onClick={[Function]}
+          type="submit"
+        >
+          Add row
+        </Button>
+      </Form>
+      <br />
+      <Button
+        active={false}
+        block={false}
+        bsClass="btn"
+        bsStyle="danger"
+        disabled={false}
+        onClick={[Function]}
+      >
+        Remove Dictionary
+      </Button>
+    </PanelBody>
+  </PanelCollapse>
+</Panel>
+`;

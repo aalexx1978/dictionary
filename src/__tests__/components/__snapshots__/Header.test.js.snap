@@ -1,0 +1,28 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Header /> render() renders the component 1`] = `
+<Navbar
+  bsClass="navbar"
+  bsStyle="default"
+  collapseOnSelect={true}
+  componentClass="nav"
+  fixedBottom={false}
+  fixedTop={false}
+  fluid={false}
+  inverse={false}
+  onToggle={[Function]}
+  staticTop={false}
+>
+  <NavbarHeader>
+    <NavbarBrand>
+      <img
+        alt="logo"
+        className="App-logo"
+        src="logo.png"
+      />
+      Dictionary
+    </NavbarBrand>
+    <NavbarToggle />
+  </NavbarHeader>
+</Navbar>
+`;

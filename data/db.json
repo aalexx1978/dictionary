@@ -1,0 +1,54 @@
+{
+  "products": [
+    {
+      "id": 1,
+      "product": "Apple iPhone 6s",
+      "color": "Stonegrey",
+      "price": 769
+    },
+    {
+      "id": 3,
+      "product": "Huawei P9",
+      "color": "Mystic Silver",
+      "price": 272
+    },
+    {
+      "product": "Sony X",
+      "color": "Mystic Silver",
+      "price": 772,
+      "id": 5
+    },
+    {
+      "product": "Sony X",
+      "color": "Mystic Silver",
+      "price": 772,
+      "id": 6
+    }
+  ],
+  "dictionaries": [
+    {
+      "id": 1,
+      "name": "Dictionary 1",
+      "Stonegrey": "Dark Grey",
+      "Midnight Black": "Black",
+      "Mystic Silver": "Silver",
+      "Black": "Black",
+      "hola": "hola",
+      "sdfsdf": "sfsdf"
+    },
+    {
+      "id": 2,
+      "name": "Dictionary 2",
+      "Stonegrey": "Dark",
+      "Midnight Black": "Silver Special",
+      "Mystic Silver": "Silver Special"
+    },
+    {
+      "name": "Dictionary 3",
+      "Stonegrey": "Dark",
+      "Midnight Black": "Black Dark",
+      "Mystic Silver": "Silver Special",
+      "id": 3
+    }
+  ]
+}

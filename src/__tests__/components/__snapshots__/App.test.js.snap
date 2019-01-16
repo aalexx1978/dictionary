@@ -1,0 +1,156 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`>>>APP --- Snapshot +++capturing Snapshot of App 1`] = `
+<div
+  className="App"
+>
+  <div
+    className="container"
+  >
+    <div
+      className="row"
+    >
+      <div
+        className="col-md-12"
+      >
+        <nav
+          className="navbar navbar-default"
+        >
+          <div
+            className="container"
+          >
+            <div
+              className="navbar-header"
+            >
+              <span
+                className="navbar-brand"
+              >
+                <img
+                  alt="logo"
+                  className="App-logo"
+                  src="logo.png"
+                />
+                Dictionary
+              </span>
+              <button
+                className="navbar-toggle collapsed"
+                onClick={[Function]}
+                type="button"
+              >
+                <span
+                  className="sr-only"
+                >
+                  Toggle navigation
+                </span>
+                <span
+                  className="icon-bar"
+                />
+                <span
+                  className="icon-bar"
+                />
+                <span
+                  className="icon-bar"
+                />
+              </button>
+            </div>
+          </div>
+        </nav>
+      </div>
+    </div>
+    <div
+      className="row"
+    >
+      <div
+        className="col-md-4"
+      >
+        <div
+          className="form-group"
+        >
+          <label
+            className="control-label"
+            htmlFor="formControlsSelect"
+          >
+            Select Dictionary to apply
+          </label>
+          <select
+            className="form-control"
+            defaultValue={0}
+            id="formControlsSelect"
+            onChange={[Function]}
+            placeholder="select"
+          >
+            <option
+              value={0}
+            >
+              Original
+            </option>
+          </select>
+        </div>
+      </div>
+      <div
+        className="col-md-2"
+      >
+        <label
+          className="control-label"
+        >
+          Add new product
+        </label>
+        <button
+          className="btn btn-info"
+          disabled={false}
+          onClick={[Function]}
+          type="button"
+        >
+          Add Product
+        </button>
+      </div>
+    </div>
+    <div
+      className="row"
+    />
+    <div
+      className="row"
+    />
+    <div
+      className="row"
+    >
+      <div
+        className="col-md-3"
+      >
+        <button
+          className="btn btn-warning"
+          disabled={false}
+          onClick={[Function]}
+          type="button"
+        >
+          Add Dictionary
+        </button>
+      </div>
+    </div>
+    <div
+      className="btm row"
+    >
+      <div
+        className="col-xs-7"
+      >
+        <div
+          className="error1"
+        >
+           
+        </div>
+         Warning, domain or range repeated
+      </div>
+      <div
+        className="col-xs-5"
+      >
+        <div
+          className="error2 danger"
+        >
+           
+        </div>
+         Error, possible bucle
+      </div>
+    </div>
+  </div>
+</div>
+`;

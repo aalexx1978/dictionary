@@ -1,0 +1,45 @@
+{
+  "products": [
+    {
+      "id": 1,
+      "product": "Apple iPhone 6s",
+      "color": "Stonegrey",
+      "price": 769
+    },
+    {
+      "id": 2,
+      "product": "Samsung Galaxy S8",
+      "color": "Midnight Black",
+      "price": 569
+    },
+    {
+      "id": 3,
+      "product": "Huawei P9",
+      "color": "Mystic Silver",
+      "price": 272
+    }
+  ],
+  "dictionaries": [
+    {
+      "id": 1,
+      "name": "Dictionary 1",
+      "Stonegrey": "Dark Grey",
+      "Midnight Black": "Black",
+      "Mystic Silver": "Silver"
+    },
+    {
+      "id": 2,
+      "name": "Dictionary 2",
+      "Stonegrey": "Dark",
+      "Midnight Black": "Black Dark",
+      "Mystic Silver": "Silver Special"
+    },
+    {
+      "name": "Dictionary 3",
+      "Stonegrey": "Dark",
+      "Midnight Black": "Black Dark",
+      "Mystic Silver": "Silver Special",
+      "id": 3
+    }
+  ]
+}
